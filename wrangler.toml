@@ -17,6 +17,10 @@ new_sqlite_classes = ["VaultSyncServer", "ServerConfig"]
 [observability.logs]
 enabled = true
 
+[[r2_buckets]]
+binding = "YAOS_BUCKET"
+bucket_name = "yoas-sync-bucket"
+
 # ---------------------------------------------------------------------------
 # Optional hardening variables
 # ---------------------------------------------------------------------------
